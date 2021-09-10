@@ -1,0 +1,36 @@
+
+/*creating a root element*/
+:root {
+  --base: #ffc600;
+  --spacing: 0.625rem;
+  --blur: 10.625rem;
+}
+/* css in a image*/
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+/* css in a JS word*/
+.hl {
+  color: var(--base);
+}
+
+/* CSS variable with color is white*/
+
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+ 
+  font-size: 1.00rem;
+}
+
+.controls {
+  margin-bottom: 3.125rem;
+}
+
+input {
+  width: 6.25rem;
+}
